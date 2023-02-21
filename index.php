@@ -23,7 +23,7 @@
             <h1>Cadastro de Usuários</h1>
             <hr><br><br>
 
-            <form action="post" action="processa.php">
+            <form method="post" action="processa.php">
                 Nome<br>
                 <input class="campo" type="text" maxlength="40" required autofocus name="nome" id="nome" ><br>
                 Email<br>
